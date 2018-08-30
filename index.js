@@ -1,28 +1,3 @@
-
-{
-    type: 'REMOVE_TODO',
-    id: 0
-}
-
-
-{
-    type: 'TOGGLE_TODO',
-    id: 0
-}
-
-{
-    type: 'ADD_GOAL',
-    goal: {
-        id: 0,
-        name: 'Run a Marathon'
-    }
-}
-
-{
-    type: 'REMOVE_GOAL',
-    id: 0
-}
-
 function todos(state = [], action) {
     switch(action.type) {
         case 'ADD_TODO' :
